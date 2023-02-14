@@ -18,13 +18,19 @@ main{
 }
 
 .coisaErrada{
+
     display: flex;
+    min-width: 302px;
+    max-width: 2000px;
     justify-content: center;
     align-items: center;
+    
 }
 
 .coisaErrada img{
-    width:50%;
+
+    min-width: 302px;
+    max-width: 500px;
 
 }
 
