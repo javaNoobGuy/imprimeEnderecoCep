@@ -24,6 +24,7 @@ const preencherForm = (endereco) =>{
 
 const getApiJson = async(cep) => {
 
+    console.log(cep);
     const url = `http://viacep.com.br/ws/${cep}/json/`;
     console.log(url);
     console.log(cep);
@@ -38,7 +39,7 @@ const getApiJson = async(cep) => {
 
 const addEventoOnCepInput = () =>{
     let cepInput = document.getElementById('cep');
-    cepInput.addEventListener('focusout',getApiJson(cepInput.value));
+    cepInput.addEventListener('focusout',getApiJson(document.getElementById('cep').value));
 }
 
 addEventoOnCepInput();
