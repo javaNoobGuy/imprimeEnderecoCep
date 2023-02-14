@@ -8,13 +8,24 @@ main{
     background-image: url('../image/conteudoForm.jpg');
     border-radius: 20px;
     margin: auto;
-    margin-top: 25%;
+    margin-top: 5%;
     padding-bottom: 10%;
     max-width: 1000px;
     min-width: 320px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.coisaErrada{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coisaErrada img{
+    width:50%;
+
 }
 
 .inputBg{
