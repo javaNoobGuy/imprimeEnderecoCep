@@ -1,0 +1,53 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url('../image/fundoDeTerraMinecraft.jpg');
+}
+
+main{
+    background-image: url('../image/conteudoForm.jpg');
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 25%;
+    padding-bottom: 10%;
+    max-width: 1000px;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputBg{
+    margin-top: 10%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+main input{
+
+    max-width: 290px;
+    padding: 2px 0px 2px 4px;
+    min-width: 130px;
+    margin: 10px 0px 10px 10px;
+
+}
+
+.saida{
+    
+}
+
+/*.backgroundImage {
+    width: 100%;
+    height: 100%;
+    background-image: url('../image/fundoDeTerraMinecraft.jpg');
+    background-repeat: no-repeat;
+    background-position: center 0%;
+    background-size:cover;
+    position: absolute;
+    z-index: -100;
+    position: fixed;
+}*/
