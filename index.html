@@ -24,20 +24,22 @@
         <img src="image/Minecraft.png"  width="50%" alt="">
 
         <div class="inputBg">
-            <input type="text" id="email" placeholder="Email">
-            <input type="text" id="cpf" placeholder="CPF">
-            <input type="text" id="nome" placeholder="Nome">
-            <input type="text" id="sobrenome" placeholder="Sobrenome">
-            <input type="text" id="cep" placeholder="CEP">
-            <input type="text" id="numero" placeholder="N°">
-            <input type="text" id="estado" placeholder="Unidade Federativa">
-            <input type="text" id="cidade" placeholder="Cidade">
-            <input type="text" id="bairro" placeholder="Bairro">
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="text" id="cpf" placeholder="CPF" required>
+            <input type="text" id="nome" placeholder="Nome" required>
+            <input type="text" id="sobrenome" placeholder="Sobrenome" required>
+            <input type="text" id="cep" placeholder="CEP" required>
+            <input type="text" id="numero" placeholder="N°" required>
+            <input type="text" id="estado" placeholder="Unidade Federativa" required>
+            <input type="text" id="cidade" placeholder="Cidade" required>
+            <input type="text" id="bairro" placeholder="Bairro" required>
+
+
         </div>
 
         <button onclick="enviarDados()">Enviar</button>
 
-        <div class="saida">
+        <div class="saida" id="Saida">
 
         </div>
 

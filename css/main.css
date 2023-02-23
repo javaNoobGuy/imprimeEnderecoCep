@@ -54,7 +54,30 @@ main input{
 }
 
 .saida{
-    
+    display: none;
+}
+
+@media print{
+
+    button{
+        display: none;
+    }
+
+    main img{
+        display: none;
+    }
+
+    input{
+        display: none;
+    }
+
+    .saida{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        visibility: visible;
+    }
 }
 
 /*.backgroundImage {
