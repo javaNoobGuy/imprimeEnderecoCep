@@ -26,7 +26,7 @@ const getApiJson = async() => {
 
     let cep = document.getElementById('cep').value;
     console.log(cep);
-    const url = `http://viacep.com.br/ws/${cep}/json/`;
+    const url = `https://viacep.com.br/ws/${cep}/json/`;
     console.log(url);
     console.log(cep);
     if (cepValido(cep)) {
